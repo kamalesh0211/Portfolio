@@ -1,20 +1,11 @@
 import "./App.css";
+// import { SiHomeassistant } from "react-icons/si";
+// import { FaProjectDiagram } from "react-icons/fa";
+// import { MdGroupWork } from "react-icons/md";
+// import { MdOutlineContactPhone } from "react-icons/md";
 
 const App = () => {
-  return (
-    <div className=".Container">
-      <div className="MainNav">
-        <ul className="nav-list">
-          <li className="Home">Home</li>
-          <li className="Project">Project</li>
-          <li className="Education">Education</li>
-          <li className="Experience">Experience</li>
-          <li className="ContactUs">Contact Us</li>
-        </ul>
-      </div>
-      {/* <div className="summary"><p>Hi,m Kamaleshwaran</p></div> */}
-    </div>
-  );
+  return <div>App</div>;
 };
 
 export default App;
