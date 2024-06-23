@@ -1,12 +1,40 @@
-:root {
-  background: linear-gradient(to top, rgb(176, 130, 250), rgb(64, 0, 107));
-  min-height: 100vh;
-}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   list-style: none;
-  text-decoration: none;
-  color:unset;
-  padding:0;
-  margin:0;
-}
 
+  text-decoration: none;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --color-bg: rgb(6, 9, 145);
+  --color-bg-variant: rgb(2, 2, 56);
+  --color-primary: rgb(30, 183, 235);
+  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-white: white;
+  --color-light: rgba(255, 255, 255, 0.6);
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-ms: 90%;
+
+  /* box color  */
+  --boxColor: white;
+}
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  background: var(--color-white);
+  color: var(--color-white);
+  font-weight: 500;
+  line-height: 1.4;
+}

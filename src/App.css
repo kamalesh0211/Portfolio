@@ -1,0 +1,15 @@
+.BoxContainer {
+  display: flex;
+  justify-content: space-between;
+  z-index: -2;
+}
+.BoxContainer * {
+  width: 50px;
+  height: 50px;
+  background: var(--boxColor);
+  box-shadow: 1px 2px 5px gray;
+  
+}
+.BoxOne {
+  scale: 3;
+}

@@ -16,14 +16,38 @@ import Footer from "./Components/Footer/Footer";
 const App = () => {
   return (
     <>
+      <Background />
       <Header />
       <Nav />
-      <About/>
-      <Experience/>
-      <Service/>
-      <Portfolio/>
-      <Testmonial/>
-      <Footer/>
+      <About />
+      <Experience />
+      <Service />
+      <Portfolio />
+      <Testmonial />
+      <Footer />
+    </>
+  );
+};
+const Background = () => {
+  return (
+    <>
+      <div className="BoxContainer">
+        <div className="BoxOne"></div>
+        <div className="BoxTwo"></div>
+        <div className="BoxThree"></div>
+        <div className="BoxFour"></div>
+        <div className="BoxFive"></div>
+        <div className="BoxSix"></div>
+        <div className="BoxSeven"></div>
+        <div className="BoxEight"></div>
+        <div className="BoxNine"></div>
+        <div className="BoxTen"></div>
+        <div className="BoxEleven"></div>
+        <div className="BoxTwelve"></div>
+        <div className="BoxThree"></div>
+        <div className="BoxFourteen"></div>
+        <div className="BoxFifteen"></div>
+      </div>
     </>
   );
 };
