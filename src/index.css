@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-  --color-bg: rgb(5, 6, 49);
+  --color-bg: rgb(56, 18, 92);
   --color-bg2: rgb(8, 17, 82);
   --color-bg-variant: rgb(2, 2, 56);
   --color-primary: rgb(30, 183, 235);
@@ -34,6 +34,7 @@ html {
 body {
   font-family: "Raleway", sans-serif;
   background: var(--color-bg);
+  background-image: url("./assets/nnnoise.svg");
   color: var(--color-white);
   font-weight: 500;
   line-height: 1.4;
