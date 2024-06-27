@@ -1,16 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
-* {
-  list-style: none;
-  text-decoration: none;
-  border: 0;
-  outline: 0;
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
 :root {
   --color-bg: rgb(5, 6, 49);
+  --color-bg2: rgb(8, 17, 82);
   --color-bg-variant: rgb(2, 2, 56);
   --color-primary: rgb(30, 183, 235);
   --color-primary-variant: rgba(77, 181, 255, 0.4);
@@ -19,6 +11,16 @@
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-ms: 90%;
+  /* color for motion gradient  */
+  --color1: rgba(18, 113, 255);
+  --color2: rgba(221, 113, 255);
+  --color3: rgba(100, 220, 255);
+  --color4: rgba(200, 58, 50);
+  --color5: rgba(180, 180, 50);
+  --color-interactive: rgba(140, 100, 255);
+  --circle-size: 80%;
+  --blending: hard-light;
+
   /* box color  */
   --boxColor: white;
   --transition: all 400ms ease;

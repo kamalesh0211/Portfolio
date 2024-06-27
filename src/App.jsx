@@ -16,7 +16,6 @@ import Footer from "./Components/Footer/Footer";
 const App = () => {
   return (
     <>
-      <Background />
       <Header />
       <Nav />
       <About />
@@ -25,15 +24,6 @@ const App = () => {
       <Portfolio />
       <Testmonial />
       <Footer />
-    </>
-  );
-};
-const Background = () => {
-  return (
-    <>
-      <div className="Container">
-        
-      </div>
     </>
   );
 };
