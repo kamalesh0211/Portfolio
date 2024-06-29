@@ -9,7 +9,11 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
-      <a href="#">
+      <a
+        href="#"
+        onClick={() => setActiveNav("#")}
+        className={activeNav === "#" ? "active" : ""}
+      >
         <SiHomeassistant />
       </a>
       <a
@@ -19,13 +23,25 @@ const Nav = () => {
       >
         <PiUserSquare />
       </a>
-      <a href="#Experience">
+      <a
+        href="#Experience"
+        onClick={() => setActiveNav("#Experience")}
+        className={activeNav === "#Experience" ? "active" : ""}
+      >
         <MdWork />
       </a>
-      <a href="#Project">
+      <a
+        href="#Project"
+        onClick={() => setActiveNav("#Project")}
+        className={activeNav === "#Project" ? "active" : ""}
+      >
         <FaProjectDiagram />
       </a>
-      <a href="#Contact">
+      <a
+        href="#Contact"
+        onClick={() => setActiveNav("#Contact")}
+        className={activeNav === "#Contact" ? "active" : ""}
+      >
         <MdOutlineContactPhone />
       </a>
     </nav>

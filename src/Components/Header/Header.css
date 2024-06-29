@@ -1,5 +1,5 @@
 header {
-  height: 100vh;  
+  height: 100vh;
   /* to make the content center  */
   padding-top: 11rem;
   overflow: hidden;
@@ -10,12 +10,17 @@ header {
   height: 100%;
   position: relative;
 }
+h5 {
+  font-size: 1rem;
+  word-spacing: 1rem;
+  text-shadow: 1px 1px 6px rgb(36, 36, 36);
+}
 /*==============CTA============== */
 .cta {
   margin-top: 2.5rem;
   display: flex;
   gap: 1.2rem;
-  justify-content: center; 
+  justify-content: center;
 }
 /*==============HEADER SOCIAL============== */
 .header_social {
