@@ -7,11 +7,7 @@ import Service from "./Components/Service/Service";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Testmonial from "./Components/Testmonial/Testmonial";
 import Footer from "./Components/Footer/Footer";
-// import About from "./Components/About/About.jsx";
-// import { SiHomeassistant } from "react-icons/si";
-// import { FaProjectDiagram } from "react-icons/fa";
-// import { MdGroupWork } from src/Components/About/About.jsx"react-icons/md";
-// import { MdOutlineContactPhone } from "react-icons/md";
+import Contact from "./Components/Contact/Contact";
 
 const App = () => {
   return (
@@ -21,6 +17,7 @@ const App = () => {
       <Nav />
       <About />
       <Experience />
+      <Contact />
       <Service />
       <Portfolio />
       <Testmonial />

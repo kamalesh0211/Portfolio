@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-  --color-bg: rgb(68, 173, 187);
-  --color-bg2: rgb(8, 17, 82);
-  --color-bg-variant: rgb(2, 2, 56);
-  --color-primary: rgb(72, 176, 211);
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-bg: rgb(153, 28, 179);
+  --color-bg2: rgb(254, 252, 255);
+  --color-bg-variant: rgb(3, 75, 65);
+  --color-primary: rgb(10, 194, 255);
+  --color-primary-variant: rgba(66, 219, 230, 0.4);
   --shade-color: rgba(77, 146, 155, 0.692);
   --color-white: white;
   --color-light: rgba(255, 255, 255, 0.6);
@@ -14,24 +14,42 @@
   --container-width-ms: 90%;
   /* color for motion gradient  */
 
-
   /* box color  */
   --boxColor: white;
   --transition: all 400ms ease;
 }
+* {
+  text-decoration: none;
+  list-style: none;
+}
 html {
   scroll-behavior: smooth;
+  background: linear-gradient(54deg, var(--color-bg), var(--color-bg2));
+  animation: gradient 5s ease-out infinite;
 }
+
 ::-webkit-scrollbar {
   display: none;
 }
 body {
   font-family: "Raleway", sans-serif;
-  background: var(--color-bg);
+
   background-image: url("./assets/nnnoise.svg");
+  min-height: 100vh;
   color: var(--color-white);
   font-weight: 500;
   line-height: 1.4;
+  animation: backgroundmotion 18s ease-in infinite;
+}
+
+@keyframes backgroundmotion {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 100% 100%;
+  }
 }
 .container {
   width: var(--container-width-lg);
@@ -50,6 +68,7 @@ h1 {
 
 section {
   margin-top: 8rem;
+  height:100vh;
 }
 section > h2,
 section > h5 {
@@ -75,15 +94,19 @@ a:hover {
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
-  padding: 0.75rem 1.2 rem;
-  border-radius: 0.4px;
+  padding: 0.55rem 0.4rem;
+  border-radius: 10px;
+  background: var(--color-bg);
   cursor: pointer;
-  border: 1px solid var(--color-primary);
+  /* border: 1px solid var(--color-primary); */
   transition: var(--transition);
+  box-shadow: 1px 1px 6px rgb(97, 97, 97);
 }
 .btn:hover {
-  background: var(--color-primary);
+  background: var(--color-primary-variant);
   color: var(--color-bg);
+  box-shadow: 1px 1px 6px rgb(196, 196, 196);
+  border: none;
 }
 img {
   display: block;

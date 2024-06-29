@@ -1,9 +1,9 @@
 import "./Portfolio.css"
 
-const Portofolio = () => {
+const Portfolio = () => {
   return (
-    <div>Portofolio</div>
+    <section id="portfolio"></section>
   )
 }
 
-export default Portofolio
+export default Portfolio

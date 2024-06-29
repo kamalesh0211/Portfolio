@@ -1,5 +1,5 @@
 const Testmonial = () => {
-  return <div>Testmonial</div>;
+  return <section id="testmonial"></section>;
 };
 
 export default Testmonial;
