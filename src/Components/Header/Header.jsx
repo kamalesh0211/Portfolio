@@ -12,10 +12,6 @@ const Header = () => {
         <h5>Frontend Developer</h5>
         <CTA />
         <HeaderSocial />
-        <div className="map_container">
-          <h2></h2>
-          <div className="map"></div>
-        </div>
         <a href="#Contact" className="scroll_down">
           <RiScrollToBottomLine />
         </a>
