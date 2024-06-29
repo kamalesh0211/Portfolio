@@ -24,7 +24,7 @@
 }
 html {
   scroll-behavior: smooth;
-  background: linear-gradient(54deg, var(--color-bg), var(--color-bg2));
+  background: linear-gradient(90deg, var(--color-bg), var(--color-bg2));
   animation: gradient 5s ease-out infinite;
 }
 

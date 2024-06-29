@@ -1,0 +1,30 @@
+nav {
+  background-repeat: rgb(53, 2, 53);
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  left: 75%;
+  font-size: 1.7rem;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  /* border-radius: 3rem;
+  backdrop-filter: blur(15px); */
+}
+nav a {
+  background: transparent;
+  padding: 0.7rem;
+  border-radius: 50%;
+  display: flex;
+  color: var(--color-light);
+}
+nav a:hover {
+  background: rgb(222, 157, 255);
+}
+nav a .active{
+  background:purple;
+}

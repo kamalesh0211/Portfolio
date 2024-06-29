@@ -11,10 +11,10 @@ import Contact from "./Components/Contact/Contact";
 
 const App = () => {
   return (
-  
-    <>  
-      <Header />
+    <>
       <Nav />
+      <Header />
+
       <About />
       <Experience />
       <Contact />
