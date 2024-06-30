@@ -6,40 +6,40 @@ import { PiUserSquare } from "react-icons/pi";
 import { useState } from "react";
 import "./Nav.css";
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState("#");
+  const [activeNav, defActiveNav] = useState("#");
   return (
     <nav>
       <a
         href="#"
-        onClick={() => setActiveNav("#")}
+        onClick={() => defActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}
       >
         <SiHomeassistant />
       </a>
       <a
         href="#About"
-        onClick={() => setActiveNav("#About")}
+        onClick={() => defActiveNav("#About")}
         className={activeNav === "#About" ? "active" : ""}
       >
         <PiUserSquare />
       </a>
       <a
         href="#Experience"
-        onClick={() => setActiveNav("#Experience")}
+        onClick={() => defActiveNav("#Experience")}
         className={activeNav === "#Experience" ? "active" : ""}
       >
         <MdWork />
       </a>
       <a
         href="#Project"
-        onClick={() => setActiveNav("#Project")}
+        onClick={() => defActiveNav("#Project")}
         className={activeNav === "#Project" ? "active" : ""}
       >
         <FaProjectDiagram />
       </a>
       <a
         href="#Contact"
-        onClick={() => setActiveNav("#Contact")}
+        onClick={() => defActiveNav("#Contact")}
         className={activeNav === "#Contact" ? "active" : ""}
       >
         <MdOutlineContactPhone />
