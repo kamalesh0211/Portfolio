@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
+  /* rgb(153, 28, 179);  for doubt*/
   --color-bg: rgb(153, 28, 179);
   --color-bg2: rgb(254, 252, 255);
+  --color-nav:rgb(222, 157, 255);
   --color-bg-variant: rgb(3, 75, 65);
   --color-primary: rgb(10, 194, 255);
   --color-primary-variant: rgba(66, 219, 230, 0.4);

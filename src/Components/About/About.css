@@ -1,0 +1,19 @@
+#Edc {
+
+  display: flex;
+  justify-content: space-around;
+}
+.section {
+  /* border: 2px solid purple; */
+  border-radius: 2rem;
+  box-sizing:border-box;
+  backdrop-filter: blur(120px);
+  box-shadow: 2px 2px 6px rgb(124, 124, 124);
+  height:30%;
+  padding:1.2rem 3.2rem;
+
+}
+.section:hover{
+    box-shadow: none;
+    scale:0.98;
+}
