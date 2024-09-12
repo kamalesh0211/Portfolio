@@ -43,7 +43,7 @@ body {
   color: var(--color-white);
   font-weight: 500;
   line-height: 1.4;
-  animation: backgroundmotion 70s ease-in infinite;
+  animation: backgroundmotion 90s ease-in infinite;
 }
 
 @keyframes backgroundmotion {

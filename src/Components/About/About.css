@@ -1,16 +1,20 @@
 #About h2 {
-  margin:-1rem;
+  margin: -1rem;
   padding: 1.2rem;
   font-size: 2rem;
   font-weight: 800;
   text-transform: uppercase;
-  background-color: rgb(176, 109, 182);
+  background: linear-gradient(90deg,rgb(177, 13, 192),rgb(255,0,0,0));
+  
 }
-#Edc {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+.fade-section {
+  height: 100vh;
+  background-color: red; /* Just to make it clear */
+  transition: opacity 0.1s ease-out;
 }
+/* #Edc {
+
+} */
 .section {
   /* border: 2px solid purple; */
   border-radius: 2rem;
