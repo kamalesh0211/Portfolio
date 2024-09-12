@@ -3,29 +3,14 @@ const Education = () => {
   return (
     <section id="Edc">
       <div className="section">
-        <h5 className="title">SSLC</h5>
-        <div className="paragraph">
-          <strong className="insitute">
-            Annai Velankanni Matric.Sch Chennai
-          </strong>
-          <br />
-          <p>07/2017</p>
-        </div>
-      </div>
-      <div className="section">
-        <h5 className="title">HSSC</h5>
-        <div className="paragraph">
-          <strong className="insitute">Velankanni Matric.Sch Chennai</strong>
-          <br />
-          <p>07/2017 - 04/2019</p>
-        </div>
-      </div>
-      <div className="section">
-        <h5 className="title">B.E (Electronic and Communication)</h5>
-        <div className="paragraph">
-          <strong>University College of Engineering</strong> <br />
-          <p>06/2019 - 05/2023</p>
-        </div>
+        <h1>About Me</h1>
+        <p>
+          Hi there, I{"'"}m Vinoth a talented and passionate front-end developer
+          with a keen eye for design and a deep understanding of user
+          experience. With a strong background in HTML, CSS, and JavaScript and
+          has a proven track record of creating engaging, responsive, and
+          accessible websites that meet the needs of his clients and users.
+        </p>
       </div>
     </section>
   );

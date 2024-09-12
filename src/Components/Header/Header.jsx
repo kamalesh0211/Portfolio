@@ -23,7 +23,6 @@ const Header = () => {
         /> */}
         <a href="#Contact" className="scroll_down">
           <RiScrollToBottomLine />
-          ``
         </a>
       </div>
     </header>

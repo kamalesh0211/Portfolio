@@ -1,3 +1,11 @@
+#About h2 {
+  margin:-1rem;
+  padding: 1.2rem;
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  background-color: rgb(176, 109, 182);
+}
 #Edc {
   display: flex;
   justify-content: space-around;
