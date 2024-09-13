@@ -1,4 +1,19 @@
 .section{
+    min-height:1rem;
     background-image: url(../../assets/circle-scatter-haikei.svg);
     border: 1px solid rgb(132, 89, 189);
+    padding:1px;
+}
+h1{
+    margin: 20px 0;
+    padding: 0 0 0 5rem;
+}
+p{
+    padding:0 5%;
+    font-weight: 700;
+    font-size:1.3em;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(45deg, rgb(63, 1, 50), rgb(8, 2, 94));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
