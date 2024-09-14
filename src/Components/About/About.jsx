@@ -1,5 +1,5 @@
 import "./About.css";
-import Skill from "../Skill/Skill";
+// import Skill from "../Skill/Skill";
 import Education from "../Education/Education";
 
 // option 2
@@ -8,8 +8,10 @@ const About = () => {
   return (
     <section id="About">
       <h2>SKILL</h2>
-      <Education />
-      <Skill />
+      <div className="Edu-skill">
+        <Education />
+        {/* <Skill /> */}
+      </div>
     </section>
   );
   // window.addEventListener("scroll", function () {
@@ -18,7 +20,6 @@ const About = () => {
   //   let opacityValue = 1 - scrollPosition / 500; // 500 can be adjusted
   //   section.style.opacity = opacityValue > 0 ? opacityValue : 0;
   // });
-  
 };
 
 export default About;

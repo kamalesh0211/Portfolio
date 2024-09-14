@@ -11,22 +11,30 @@
   background-color: red; /* Just to make it clear */
   transition: opacity 0.1s ease-out;
 }
+.Edu-skill {
+  display: flex;
+  justify-content: space-around;
+}
 #Edc {
- margin-top:3em;
+  margin-top: 3em;
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+  height: 65vh;
 }
 .section {
   /* border: 2px solid purple; */
   border-radius: 2rem;
   box-sizing: border-box;
   backdrop-filter: blur(120px);
-  box-shadow: 2px 2px 6px rgb(124, 124, 124);
-  height: 40%;
+  box-shadow: 2px 2px 6px rgb(124, 124, content 124);
+  height: max-content;
   padding: 1rem 3rem;
-  scale:0.89;
-  transition: transform 0.3s ease-in-out; 
+  scale: 0.89;
+  transition: transform 0.3s ease-in-out;
 }
+
 .section:hover {
   box-shadow: none;
   transform: scale(1.1);
-  
 }
