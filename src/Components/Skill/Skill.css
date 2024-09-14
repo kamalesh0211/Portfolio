@@ -5,9 +5,17 @@
   gap: 5rem;
 }
 .list li {
-  margin: 10px;  
+  margin: 20px;
   color: rgb(28, 1, 44);
   font-size: 5rem;
   /* box-shadow: 0 10px 30px rgba(0, 255, 255, 0.6); Cyan glow shadow/// */
   filter: drop-shadow(0 0 11px rgba(0, 0, 0, 0.8));
+}
+.inner-circle:hover {
+  height: 100px;
+  width: 100px;
+  padding:5px;
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 0px;
 }

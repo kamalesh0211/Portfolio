@@ -10,19 +10,39 @@ const Skill = () => {
     <div className="skillList">
       <ul className="list">
         <li className="known-skill">
-          <FaJsSquare />
+          <div className="inner-circle">
+            <div className="outer-circle">
+              <FaJsSquare />
+            </div>
+          </div>
         </li>
         <li className="known-skill">
-          <SiCsharp />
+          <div className="inner-circle">
+            <div className="outer-circle">
+              <SiCsharp />
+            </div>
+          </div>
         </li>
         <li className="known-skill">
-          <FaLinux />
+          <div className="inner-circle">
+            <div className="outer-circle">
+              <SiVite />
+            </div>
+          </div>
         </li>
         <li className="known-skill">
-          <SiVite />
+          <div className="inner-circle">
+            <div className="outer-circle">
+              <FaLinux />
+            </div>
+          </div>
         </li>
         <li className="known-skill">
-          <IoLogoPython />
+          <div className="inner-circle">
+            <div className="outer-circle">
+              <IoLogoPython />
+            </div>
+          </div>
         </li>
       </ul>
     </div>
