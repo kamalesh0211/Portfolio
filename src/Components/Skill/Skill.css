@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center; /* Centers horizontally */
   align-items: center;
-  gap: 5rem;
+  gap: 3rem;
 }
 .list li {
   margin: 20px;
@@ -11,11 +11,24 @@
   /* box-shadow: 0 10px 30px rgba(0, 255, 255, 0.6); Cyan glow shadow/// */
   filter: drop-shadow(0 0 11px rgba(0, 0, 0, 0.8));
 }
+.known-skill{
+  width: 160px;
+  height: 160px;
+  position:relative;
+}
 .inner-circle:hover {
   height: 100px;
   width: 100px;
   padding:5px;
   border: 1px solid white;
   border-radius: 50%;
-  font-size: 0px;
+  /* font-size: 0px; */
+}
+.outer-circle:hover{
+  height: 100px;
+  width: 100px;
+  padding:5px;
+  border: 1px solid white;
+  border-radius: 50%;
+  /* font-size: 0px; */
 }
